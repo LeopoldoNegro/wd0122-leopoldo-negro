@@ -1,0 +1,178 @@
+/* stili generali*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5{
+    line-height: 1.5;
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+footer{
+    background-color: #25a2c3
+}
+
+
+
+
+
+
+/*header*/
+header{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+header img{
+    width: 40%;
+}
+
+/*main section*/
+
+section{
+    text-align: center;
+}
+#prima{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    padding: 40px;
+}
+#prima *{
+    margin-bottom: 20px;
+}
+
+#prima h1{
+    font-size: 2.8rem;
+    line-height: 95%;
+}
+
+
+.bottone{ 
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+
+
+    
+}
+
+.unica{
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#notebook{
+    border-radius: 100%;
+
+}
+
+#ultima{
+    padding: 40px;
+    background-color: #D63C2A;
+}
+
+#ultima h1{
+    color: white;
+    font-size: 2.5rem;
+    line-height: 300%;
+}
+
+#ultima cite{
+    color: white;
+    
+}
+
+#ultima blockquote {
+    color: white;
+    line-height: 150%;
+    margin-top: 12%;
+
+}
+
+#ultima p{
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    
+
+}
+    
+/* aside */
+
+div{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 10%;
+
+}
+
+.classe{
+    border: 0.7px lightgrey solid;
+
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 0;
+
+    
+}
+
+.classe h3{
+    margin-top: 5% ;
+    
+}
+
+.classe p{
+    margin-top: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.classe img{
+    width: 100%;
+}
+
+
+/*footer*/
+
+footer{
+   padding-top: 100px;
+   text-align: center;
+
+}
+
+
+footer h1{
+    color: white;
+    font-size: 2.3rem;
+
+    
+}
+
+.telefono{
+    color: white;
+}
+
+.mail{
+    color: white;
+}
+
+footer p{
+    color: white;
+}
+
+hr{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
