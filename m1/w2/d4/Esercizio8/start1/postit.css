@@ -1,0 +1,93 @@
+body{
+    background-color: grey;
+}
+
+
+#postit{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px;
+    text-align: center;
+    line-height: 100px;
+    
+
+}
+
+
+.foglio1, .foglio5, .foglio7{
+    background-color: lightyellow;
+    box-shadow: 5px 5px 5px black;
+    width: 250px;
+    height:200px;
+    font-size: 2rem;
+    
+    
+
+}
+
+.foglio2, .foglio4, .foglio8{
+    background-color: lightgreen;
+    box-shadow: 5px 5px 5px black;
+    width: 250px;
+    height:200px;
+    font-size: 2rem ;
+}
+
+.foglio6, .foglio3 {
+    background-color: #c2ABD7;
+    box-shadow: 5px 5px 5px black;
+    width: 250px;
+    height:200px;
+    font-size: 2rem ;
+}
+
+.foglio5, .foglio6, .foglio7, .foglio8{
+    margin-top: 40px;
+    
+}
+
+/* animazione */
+
+.foglio1, .foglio5{
+    transform: rotate(-8deg);
+}
+
+.foglio2, .foglio8{
+    transform: rotate(4deg);
+}
+
+.foglio3{
+    transform: rotate(-10deg);
+}
+
+.foglio4{
+    transform: rotate(12deg);
+}
+
+.foglio6, .foglio7{
+    transform: rotate(-5deg);
+}
+
+
+.foglio3{
+    width:250px;
+    height:200px;
+    transition-duration: width 3s, height 3s;
+    
+    
+}
+/*
+.foglio3:hover{
+    width: 3000px;
+    height: 2500px;
+    z-index: 1;
+    transform: rotate(0);
+
+}*/
+
+.foglio1:hover, .foglio2:hover,.foglio3:hover,.foglio4:hover,.foglio5:hover,.foglio6:hover, .foglio7:hover, .foglio8:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
