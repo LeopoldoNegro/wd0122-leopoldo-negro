@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+
+</head>
+<body>
+    
+    <div id="grid" class="unico">
+    <input type="text" id="display">
+    <button class="simbolo" onclick="aggiungiNumero(this)">/</button>
+    <button class="numero" data-numero="1"onclick="aggiungiNumero(this)">1</button>
+    <button class="numero" onclick="aggiungiNumero(this)">2</button>
+    <button class="numero" onclick="aggiungiNumero(this)">3</button>
+    <button class="simbolo"  onclick="moltiplicazione()">X</button>
+    <button class="numero" onclick="aggiungiNumero(this)">4</button>
+    <button class="numero" onclick="aggiungiNumero(this)">5</button>
+    <button class="numero" onclick="aggiungiNumero(this)">6</button>
+    <button class="simbolo" onclick="aggiungiNumero(this)">-</button>
+    <button class="numero" onclick="aggiungiNumero(this)">7</button>
+    <button class="numero" onclick="aggiungiNumero(this)">8</button>
+    <button class="numero" onclick="aggiungiNumero(this)">9</button>
+    <button class="simbolo" onclick="aggiungiNumero(this)">+</button>
+    <button class="numero" onclick="aggiungiNumero(this)">0</button>
+    <button class="numero" onclick="virgola()">,</button>
+    <button class="numero" onclick="reset()">C</button>
+    <button class="simbolo" onclick="risultato( )">=</button>
+    
+</div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
