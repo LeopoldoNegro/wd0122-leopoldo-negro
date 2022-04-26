@@ -1,0 +1,21 @@
+body{
+    background-color: brown;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 7rem;
+}
+
+#ora{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+}
+
+#calendario{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+}
