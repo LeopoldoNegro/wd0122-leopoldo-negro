@@ -1,0 +1,32 @@
+header {
+  background-color: #030329;
+  border-radius: 10%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid white; }
+  header li {
+    display: inline; }
+    header li a {
+      text-decoration: none;
+      color: white;
+      font-style: italic;
+      margin-right: 30px; }
+
+#main article {
+  flex-basis: 75%; }
+
+#main aside {
+  flex-basis: 25%; }
+
+#main {
+  display: flex;
+  justify-content: space-evenly; }
+  #main #main article {
+    flex-basis: 75%; }
+  #main #main aside {
+    flex-basis: 25%; }
+
+button {
+  background-color: orange;
+  border: 1px solid grey;
+  color: white; }

@@ -1,0 +1,50 @@
+
+header{
+    background-color: rgb(3, 3, 41);
+    border-radius: 10%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    li{
+        display: inline;
+        
+        a{
+            text-decoration: none;
+            color:white;
+            font-style: italic;
+            margin-right: 30px;
+            
+        }
+    }
+}
+@mixin flex{
+    display:flex;
+    justify-content: space-evenly;
+}
+ 
+#main{
+    article{
+        flex-basis: 75%;
+    }
+    aside{
+        flex-basis: 25%;
+    }
+}
+
+#main{
+    @include flex;
+    #main{
+        article{
+            flex-basis: 75%;
+        }
+        aside{
+            flex-basis: 25%;
+        }
+    }
+}
+
+button{
+    background-color:orange;
+    border:1px solid grey;
+    color:white;
+}
