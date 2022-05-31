@@ -1,0 +1,48 @@
+h1{
+    color: white;
+    text-align: center;
+    padding:50px;
+
+}
+
+#titolo{
+    color:brown;
+    font-size:5rem;
+}
+
+.menubottone{
+    background-color: green;
+    padding:20px;
+}
+
+.menubottone:hover{
+    background-color:lightgreen;
+}
+
+.menu{
+    position:relative;
+    display: inline-block;
+}
+
+.menunav a{
+    display:block;
+    text-decoration:none;
+    color: black;
+    overflow:hidden;
+    transition: all 1000ms ease;
+    z-index:150;
+}
+
+.button{
+    padding: 10px;
+    width: 150px;
+}
+
+.fatto {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+.mostra {
+    display: block;
+}

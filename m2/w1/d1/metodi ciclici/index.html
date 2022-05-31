@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+
+/* foreach */
+
+        let pizze = ['Margherita', 'Diavola', 'Marinara']
+
+
+        document.write(`<ul>`)
+        pizze.forEach(function(elemento, i){
+            document.write(`<li>${i} - ${elemento}</li>`)
+        })
+
+        document.write(`</ul>`)
+
+/**
+* foreach vs map
+*/
+
+        let num = [1,2,3,4,5,6,7,8,9]
+        let num2 = []
+
+        num.forEach(function(el){
+            num2.push(el * 2)
+        })
+
+        console.log(num, num2);
+
+
+        let numeriMoltiplicati = num.map(el => el * 2);
+        console.log(numeriMoltiplicati);
+
+
+
+        /**
+         * filter
+         */
+
+         num = [1,2,3,4,5,6,7,8,9]
+
+         let filtro = num.filter(el => el > 4)
+         console.log(filtro);
+
+
+        
+
+
+    </script>
+</body>
+</html>

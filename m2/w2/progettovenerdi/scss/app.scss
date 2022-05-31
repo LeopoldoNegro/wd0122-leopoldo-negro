@@ -9,11 +9,12 @@ body{
     background-color: white;
     
 }
-
-header{
-    background-color: rgb(26, 26, 82);
-   
+.navbar{
+    [class^="bi-"]{
+        font-size: 20px;
+    }
 }
+
 
 
 #primo{
@@ -29,6 +30,10 @@ header{
     padding: 30px 0;
     text-align: center;
     background: #f5f5f5;
+    color: set-color-txt($main-color);
+    [class^="bi-"]{
+        font-size: $icon-size;
+    }
 }
 
 .terzo{

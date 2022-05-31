@@ -1,0 +1,18 @@
+body{
+    background-image: url(../img/Budget.jpeg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+h3{
+    font-size:6rem;
+    text-align:center;
+    margin-top:10px;
+}
+button{
+    background-color:yellow;
+}
+
+div{
+    font-size: 3rem;
+}

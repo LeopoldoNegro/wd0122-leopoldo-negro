@@ -7812,8 +7812,8 @@ textarea.form-control-lg {
 body {
   background-color: white; }
 
-header {
-  background-color: #1a1a52; }
+.navbar [class^="bi-"] {
+  font-size: 20px; }
 
 #primo {
   background-image: url("../img/pexels-aleksandar-pasaric-325185.jpg");

@@ -1,0 +1,84 @@
+.leopoldo{
+   background-image:url(../start/images/overlay-pattern.png), url(../start/images/overlay-pattern2.png), url(../start/images/header.jpg);
+   min-height: 70vh;
+   background-repeat: repeat, repeat, no-repeat;
+   background-size: auto, auto, cover;
+   background-position: center;
+   width: auto;
+   display:flex;
+   align-items: flex-start;
+   justify-content: center;
+   
+   
+   
+}
+
+
+nav{
+    margin-top:-100px;
+    padding:40px 25px 40px 25px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    top:0;
+    z-index:150px;
+    border: 4px solid transparent;
+    background-color: rgba(255, 255, 255, 0.89);
+    
+    
+   
+    
+}
+#labelnav{
+    display:none;
+    
+}
+
+
+
+
+.leonav{
+    text-decoration: none;
+    color: black;
+    margin:20px;  
+    
+}
+
+.leonav:hover{
+    border-bottom:2px solid #FF5333;
+    
+}
+
+/*#leoimage{
+    margin: 20px 100px;
+}
+
+#leotitolo{
+    color: #2E2E2E;
+    padding:30px;
+}
+
+#leotitolo span{
+    color: #ff5333;
+}
+
+#leoslider{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+#newsletter{
+    background-image: url(../start/images/subscribe-bg.jpg);
+    min-height:40vh;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    
+
+}*/
+
+
+

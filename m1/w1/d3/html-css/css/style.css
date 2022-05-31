@@ -1,0 +1,55 @@
+
+/* general styles */
+
+
+/* header */
+
+body{font-family: 'Roboto', sans-serif}
+
+
+h1{
+    font-weight: bold;
+ font-size:12px
+}
+
+        #header{background-color: red;}
+        
+
+
+        /*section*/
+
+
+
+        #numeri{background-color: blue;
+        color: white;
+    text-align: center;}
+
+
+    #numeri div{background-color: red;}
+
+
+/* header */
+
+
+
+
+.articolo {width:200px}
+
+
+.articolo img{max-width: 100%;}
+
+.articolo.articolo-grigio{background-color: grey;}
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+ 

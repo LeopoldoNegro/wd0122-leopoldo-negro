@@ -1,0 +1,11 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass sass/style.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

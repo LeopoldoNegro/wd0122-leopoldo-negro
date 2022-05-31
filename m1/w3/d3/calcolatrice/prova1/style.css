@@ -1,0 +1,33 @@
+body{
+    background-color: green;
+}
+
+
+
+.grid{
+    
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px
+    
+}
+
+
+#schermo{
+    border: 1x solid grey;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    
+
+}
+
+.num{
+    font-size: 3rem;
+    
+    
+    
+    
+}
